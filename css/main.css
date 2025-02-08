@@ -81,11 +81,15 @@ body .bbody .left .lefty .hmm img {
 body .bbody .left .lefty .hmm:hover {
   scale: 1.2;
 }
+body .bbody .left .lefty .downs {
+  width: 40px;
+  height: fit-content;
+}
 body .bbody .left .lefty .downs img {
   position: relative;
   margin-top: 3vw;
-  width: 40px;
-  height: fit-content;
+  width: 100%;
+  object-fit: contain;
 }
 body .bbody .rightvid {
   width: 100%;

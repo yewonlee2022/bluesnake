@@ -87,11 +87,14 @@ body{
            
 
             .downs{
+                width: 40px;
+                height: fit-content;
                 img{
                 position: relative;            
                 margin-top: 3vw;
-                width: 40px;
-                height: fit-content;
+                width: 100%;
+                object-fit: contain;
+                    
                 }
             }
     
