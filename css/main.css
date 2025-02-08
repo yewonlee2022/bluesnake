@@ -42,10 +42,11 @@ body .bbody {
 }
 body .bbody .bg {
   position: absolute;
-  top: 0%;
+  bottom: 0%;
   left: 0%;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   transition: 0s;
 }
 body .bbody .bg img {
@@ -64,7 +65,7 @@ body .bbody .left {
   padding-top: 8%;
 }
 body .bbody .left .lefty {
-  height: 85%;
+  height: 75%;
   width: 100%;
   display: flex;
   flex-flow: column;
