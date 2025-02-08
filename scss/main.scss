@@ -1,0 +1,825 @@
+$dgr: #8b8b8b;
+$lgr: #cecece;
+$ww: whitesmoke;
+$bg: #f0f0f0;
+
+
+$b1:#84abd7;
+$b2: #e07861;
+$b3: #8eab8b;
+$b4: #fcfcfc;
+
+@import "reset";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+// font-family: 'Pretendard Variable';
+
+@import url("https://use.typekit.net/bto3byu.css");
+//font-family: "futura-pt"
+// font-family: "roc-grotesk-extrawide", 
+
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    .bbody{
+        background-color: $ww;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        padding: 8%;
+
+            
+    .bg{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+
+        transition: 0s;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 70%;
+        }
+
+
+    
+    }
+   
+    .left{
+        position: fixed;
+        width: 50px;
+        height: 100vh;
+        top: 0%;
+        left: 4%;
+
+        z-index: 7;
+        padding-top: 8%;
+        
+        .lefty{
+            height: 85%;
+            width: 100%;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-bottom: 30px;
+
+            .hmm{
+                width: 60px;
+
+                img{
+                    width: 60px;
+                }
+
+                &:hover{
+                    scale: 1.2;
+                    
+                }
+              
+            }
+           
+
+
+
+
+
+            .downs>img{
+                position: relative;            
+                margin-top: 3vw;
+                width: 40px;
+                height: fit-content;
+                }
+    
+         }
+
+    }
+
+    .rightvid{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: end;
+
+        .top{
+            width: 100%;
+            height: 20%;
+            position: relative;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: right;
+            align-items: end;
+
+            .eulsa{
+                position: relative;
+                width: 200px;
+                height: auto;
+           
+                object-fit: contain;
+            }
+
+            .pbh{
+                position: relative;
+                width: 100px;
+                height: auto;
+
+                filter: invert(1);
+            }
+
+            .eos{
+                position: relative;
+                height: auto;
+                width: 55px;
+            }
+        
+        }
+        .vidvid{
+            position: relative;
+            margin-top: 10vw;
+           
+            width: 80%;
+            height:40%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            .vidd{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+        }
+        .btn{
+            position: relative;
+            width: 100px;
+            height: 100px;
+
+            overflow: hidden;
+            margin-right: -20px;
+            margin-top: 3vw;
+
+            &:hover{
+                width: 120px;
+                height: 120px;
+            }
+
+            .vidbtn{
+                img{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+                .btntxt{
+                    animation: btn 10s linear 0s infinite;
+                    filter: invert(.07);
+
+                    @keyframes btn {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }
+                    
+                
+                }
+                    
+                }          
+        }
+
+
+}
+
+    .rightmk{
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: end;
+
+        .top{
+            width: 100%;
+            height: 20%;
+
+            position: relative;
+            display: flex;
+            flex-flow: column;
+            justify-content: right;
+            align-items: end;
+
+                .eulsa{
+                    position: relative;
+                    width: 130px;
+                    object-fit: contain;
+                    height: auto;
+                }
+                .pbh{
+                    position: relative;
+                    width: 70px;
+                    height: auto;
+                    filter: invert(.8);
+                    margin-top: 5px;
+                } 
+                .txt{
+                    display: flex;
+                    align-items: top;
+                    justify-content: center;
+
+                    h1{
+                        text-align: center;
+                        font: bold 12px/1.3 "Pretendard Variable";
+                        stroke-dasharray: 1px;
+                        color: $lgr;
+                    }
+                }
+
+        }
+
+        .bmaking{
+            position: relative;
+            width: 85%;
+            height: 66%;
+            margin-top: -3%;
+
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+
+            .lefty{
+                width: 58%;
+                height: 100%;
+                z-index: 2;
+
+
+
+                .baems{
+                    height:100%;
+                    width: 100%;
+                    z-index: 2;
+
+                    display: flex;
+                    justify-content: center;
+                    
+                    box-shadow: 0px 0px 10px $lgr;
+                    background-color: $b4;
+                    pointer-events: none;
+
+                    .baemssbody, .baemsstitle, .baemsstiny{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        transition: 0s;
+
+                        &.on{
+                            display: flex;
+                        }
+                        svg{
+                            position: absolute;
+                            object-fit: contain;
+                            // width: 100%;
+                            height: 100%;
+                            width: 80%;
+                        }
+
+                    }
+
+
+                    #baembodya, #baembodyb, #baembodyc{
+                        z-index: 2;
+                        svg{
+                            fill: $b1;  
+                        }
+
+                    }
+                    #baemtitlea, #baemtitleb, #baemtitlec{
+                        z-index: 4;
+                        svg{
+                            fill: $b2;
+                        }
+                    }
+                    #baemtinya, #baemtinyb, #baemtinyc{
+                        z-index: 4;
+                        svg{
+                            fill: $b3;
+                        }
+                    }
+                    .baemline{
+                        z-index: 3;
+                    
+                    
+                    }
+                }
+        
+            }
+
+            .righty{
+                width: 40%;
+                height: 100%;
+                padding-top: 2%;
+
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                align-items: center;
+
+                .blocky{
+                    width: 100%;
+                    height: 80%;
+
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .blocks{
+                        width: 100%;
+
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: start;
+                        align-items: center;
+        
+                        h1{
+                            font: bold 2.8vw/1.3 "Pretendard Variable";
+                            color: $lgr;
+                            margin-bottom: 5px;
+                        }    
+                        .circles{
+                            width: 100%;
+                            height: 50px;
+
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: center;
+                            align-items: center;
+
+                            .circle{
+                                
+                                width: 30px;
+                                height: 30px;
+                                // opacity: .9;
+
+                                border-radius: 50%;
+                                border: 1.5px dotted $lgr;
+                                background-color: rgba($color: rgba(255, 255, 255, 0), $alpha: 0);
+                                box-shadow: 0px 0px 3px rgb(187, 187, 187);
+                                
+                                margin-left: -5px;
+
+                                display: flex;
+                                flex-flow: row wrap;
+                                justify-content: center;
+                                align-items: center;
+
+                                font: bold 15px/1.3 "Pretendard Variable";
+                                color: $ww;
+        
+                                &.on{
+                                    width: 33px;
+                                    height: 33px;
+                                    opacity: 1;
+
+                                    background-color: $ww;
+                                    border: 1.5px dotted $dgr;
+                                    color: $dgr;
+                                    border-width: 2px;
+                                }
+                            }
+                        }
+                        .cp{
+                            // border: none;
+                            width: 30px;
+                            height: 30px;
+                            // margin-top: 5px;
+                            opacity:0;
+                            
+
+                            // border: ;
+                            outline: none;
+                                border: none;
+                            border-radius: 50%;           
+                            background-color: white;
+                            box-shadow: none;
+                            // box-shadow: 0px 0px 5px 5px inset $bg;
+                        }
+                        .bigbtn{
+                            width: 30px;
+                            height: 30px;
+                            margin-top: 5px;
+                            opacity: .7;
+                            // opacity: 1;
+                            margin-top: -30px;
+                            pointer-events: none;
+
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: center;
+                            align-items: center;
+
+                            border: 2px dotted $dgr;
+                            border-radius: 50%;           
+                            box-shadow: 0px 0px 5px 5px inset $bg;
+                            // position: absolute;
+
+
+                      
+
+                                    
+                        }
+                        #bbbtn{background: radial-gradient($b1, $ww 70%);}
+                    #titbtn{background: radial-gradient($b2, $ww 70%);}
+                    #scrbtn{background: radial-gradient($b3, $ww 70%);}
+                    #bgbtn{background: radial-gradient($b4, $ww 70%);}
+        
+                        &:hover{
+                            h1{
+                                color: $dgr;
+                                margin-bottom: 2px;
+                            }
+                            .bigbtn, .cp{
+                                width: 70px;
+                                height: 70px;
+                                opacity: 1;
+
+                                border-width: 2px;
+                                box-shadow: 0px 0px 10px 10px inset $ww;
+                                border: 2px dotted $dgr;
+
+                            }     
+
+                            .bigbtn{
+                                margin-top: -70px;
+                              
+                            }
+                            #bbbtn{background: radial-gradient(transparent, $ww 70%);}
+                            #titbtn{background: radial-gradient(transparent, $ww 70%);}
+                            #scrbtn{background: radial-gradient(transparent, $ww 70%);}
+                            #bgbtn{background: radial-gradient(transparent, $ww 70%);}
+                        }
+                    }
+                    
+        
+                }
+
+
+                .btn{
+                    width: 60%;
+                    height: 20%;
+                    overflow: hidden;
+
+                    display: flex;
+                    align-items: end;
+
+                        img{
+                            width: 100%;
+                        }
+
+                        &:hover{
+                            width: 70%;
+                        } 
+                }
+            }
+
+            .cardy{
+                position: absolute;
+                z-index: 0;
+                opacity: 0;
+                display: none;
+
+                width: 58%;
+                height: 100%;
+                top:11%;
+                right: 8%;
+                
+                transform-origin: top center;
+                rotate: -5deg;
+                
+                .baemb{
+                    width: 100%;
+                    height:100%;
+
+                    background-color: white;
+                    box-shadow: 0px 0px 10px $lgr;
+                    object-fit: contain;
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .imgfit{
+                        width: 100%;
+                        height: 100%;
+
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: end;
+                        align-items: center;
+
+                        img{
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            height:100%;
+                        }
+
+                        .to{
+                            width: 60%;
+                            height: 45%;
+
+
+                            display: flex;
+                            justify-content: end;
+                            align-items: center;  
+
+                            .txt{
+                                width: fit-content;
+                                height: fit-content;
+
+                                transform-origin: bottom right;
+                                rotate: 90deg;
+
+                                h1, em{
+
+                                    text-align: left;
+                                    font: bold 12px/1.3 "Pretendard Variable";
+                                    color: $dgr;
+                                    letter-spacing: -1px;
+                                }
+                                em{
+                                    font-size: 13px;
+                                    margin-left: 5px;
+                                    text-decoration-line: underline;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+    .btm{
+        width: 100%;
+        height: fit-content;
+
+        z-index: 5;
+        position: absolute;
+        bottom: 3%;
+        left: 0%;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        align-items: center;
+
+        opacity: 1;
+
+
+        .name{
+            width: 70%;
+            height: 37px;
+            margin-bottom: 2%;
+            display: none;
+        
+            .btns{
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .lft, .rgt{
+                    width: 55px;
+                    height: 100%;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &:hover{
+               
+                        width: 60px;
+                    
+                }
+
+                    img{
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .lft{
+                    img{
+                        rotate: 180deg;
+                        opacity: .7;
+                    }
+                }
+
+                .namae{
+                    height: 100%;
+                    width: 50%;
+                    opacity: .7;
+
+                    background-color: $ww;
+                    border-radius: 50px;
+                    box-shadow: 0px 0px 10px 5px $lgr;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    input{
+                        height: 100%;
+                        width: 100%;
+
+                        border: none;
+                        background-color: transparent;
+
+                        padding: 10%;
+
+                        text-align: center;
+                        font: bold 12px/1.3 "Pretendard Variable";
+                        color: $dgr;
+                    }
+                }
+            
+            }
+
+          
+
+
+        }
+    
+        .para{
+            margin-top: 1%;
+            width: 79%;
+            color: $ww;
+
+            h1{
+                text-align: center;
+                font: bold 12px/1.3 "Pretendard Variable";
+                text-shadow: 0px 0px 10px $dgr;
+            }
+            h2{
+
+            text-align: center;
+                font: bold 9px/1.3 "Pretendard Variable";
+
+
+            }
+        }
+
+        .copy{
+            margin-top: 3%;
+            p{
+                color: $ww;
+                font: bold 13px/1.3 "Pretendard Variable";
+            }
+        }
+
+    }
+
+    &.mk{
+
+        .bg{
+            img{
+                opacity: .2;
+             }
+             background: linear-gradient($bg, 95%, $dgr);
+        }
+
+        .rightvid{
+            position: absolute;
+            left:-150%;
+            width: 0%;
+        }
+
+        .rightmk{
+            opacity: 1;
+        }
+
+        .btm{
+            opacity: .7;
+            .para{
+                color: $dgr;
+                h1{
+                    text-shadow: 0px 0px 10px $lgr;
+                }
+            }
+            .copy{
+                p{
+                color: $dgr;
+            }
+            }
+
+        }
+
+    }
+
+
+    &.dl{
+
+        .rightvid{
+            position: absolute;
+            left:-150%;
+            width: 0%;
+        }
+
+        .rightmk{
+            opacity: 1;
+            .top{
+                filter: brightness(10);
+            }
+
+                .lefty{
+                transform-origin: top center;
+                rotate: 2deg;
+                transform: rotate(5deg) translate(9px, -21px);
+
+                .baems{
+                    .baemssbody, .baemsstitle, .baemsstiny{
+                        width: 150%;
+                    }
+                }
+
+        
+            }
+
+            .righty{
+                position: absolute;
+                right: -150%;
+                display: none;
+            }
+
+
+            .cardy{
+               display: block;
+               opacity: 1;
+            }
+                
+        }
+
+        .btm{
+            .name{
+                display: block;
+            }
+        }
+
+    }
+    }
+
+}
+
+@media (min-width:438px){
+
+body{
+   
+    .bbody{
+        padding: 5%;
+
+        .rightvid>.vidvid{
+            margin-top: 50px;
+        }
+    .rightmk{
+        .bmaking{
+            width: 315px;
+            .lefty{
+                width: 182px;
+            }
+
+            .righty .blocky .blocks h1 {
+                font: bold 15px/1.3 "Pretendard Variable";
+    
+            }
+        }
+
+
+    }}
+}
+}

@@ -1,0 +1,634 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+@import url("https://use.typekit.net/bto3byu.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  transition: 0.3s;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+a:visited {
+  color: whitesmoke;
+}
+
+img {
+  border: 0;
+  pointer-events: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+body .bbody {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  padding: 8%;
+}
+body .bbody .bg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  transition: 0s;
+}
+body .bbody .bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+body .bbody .left {
+  position: fixed;
+  width: 50px;
+  height: 100vh;
+  top: 0%;
+  left: 4%;
+  z-index: 7;
+  padding-top: 8%;
+}
+body .bbody .left .lefty {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+body .bbody .left .lefty .hmm {
+  width: 60px;
+}
+body .bbody .left .lefty .hmm img {
+  width: 60px;
+}
+body .bbody .left .lefty .hmm:hover {
+  scale: 1.2;
+}
+body .bbody .left .lefty .downs > img {
+  position: relative;
+  margin-top: 3vw;
+  width: 40px;
+  height: fit-content;
+}
+body .bbody .rightvid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: end;
+}
+body .bbody .rightvid .top {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: right;
+  align-items: end;
+}
+body .bbody .rightvid .top .eulsa {
+  position: relative;
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+body .bbody .rightvid .top .pbh {
+  position: relative;
+  width: 100px;
+  height: auto;
+  filter: invert(1);
+}
+body .bbody .rightvid .top .eos {
+  position: relative;
+  height: auto;
+  width: 55px;
+}
+body .bbody .rightvid .vidvid {
+  position: relative;
+  margin-top: 10vw;
+  width: 80%;
+  height: 40%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+body .bbody .rightvid .vidvid .vidd {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+body .bbody .rightvid .btn {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-right: -20px;
+  margin-top: 3vw;
+}
+body .bbody .rightvid .btn:hover {
+  width: 120px;
+  height: 120px;
+}
+body .bbody .rightvid .btn .vidbtn img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+body .bbody .rightvid .btn .vidbtn .btntxt {
+  animation: btn 10s linear 0s infinite;
+  filter: invert(0.07);
+}
+@keyframes btn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body .bbody .rightmk {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: end;
+}
+body .bbody .rightmk .top {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: right;
+  align-items: end;
+}
+body .bbody .rightmk .top .eulsa {
+  position: relative;
+  width: 130px;
+  object-fit: contain;
+  height: auto;
+}
+body .bbody .rightmk .top .pbh {
+  position: relative;
+  width: 70px;
+  height: auto;
+  filter: invert(0.8);
+  margin-top: 5px;
+}
+body .bbody .rightmk .top .txt {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+body .bbody .rightmk .top .txt h1 {
+  text-align: center;
+  font: bold 12px/1.3 "Pretendard Variable";
+  stroke-dasharray: 1px;
+  color: #cecece;
+}
+body .bbody .rightmk .bmaking {
+  position: relative;
+  width: 85%;
+  height: 66%;
+  margin-top: -3%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+body .bbody .rightmk .bmaking .lefty {
+  width: 58%;
+  height: 100%;
+  z-index: 2;
+}
+body .bbody .rightmk .bmaking .lefty .baems {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 10px #cecece;
+  background-color: #fcfcfc;
+  pointer-events: none;
+}
+body .bbody .rightmk .bmaking .lefty .baems .baemssbody, body .bbody .rightmk .bmaking .lefty .baems .baemsstitle, body .bbody .rightmk .bmaking .lefty .baems .baemsstiny {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 0s;
+}
+body .bbody .rightmk .bmaking .lefty .baems .baemssbody.on, body .bbody .rightmk .bmaking .lefty .baems .baemsstitle.on, body .bbody .rightmk .bmaking .lefty .baems .baemsstiny.on {
+  display: flex;
+}
+body .bbody .rightmk .bmaking .lefty .baems .baemssbody svg, body .bbody .rightmk .bmaking .lefty .baems .baemsstitle svg, body .bbody .rightmk .bmaking .lefty .baems .baemsstiny svg {
+  position: absolute;
+  object-fit: contain;
+  height: 100%;
+  width: 80%;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baembodya, body .bbody .rightmk .bmaking .lefty .baems #baembodyb, body .bbody .rightmk .bmaking .lefty .baems #baembodyc {
+  z-index: 2;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baembodya svg, body .bbody .rightmk .bmaking .lefty .baems #baembodyb svg, body .bbody .rightmk .bmaking .lefty .baems #baembodyc svg {
+  fill: #84abd7;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baemtitlea, body .bbody .rightmk .bmaking .lefty .baems #baemtitleb, body .bbody .rightmk .bmaking .lefty .baems #baemtitlec {
+  z-index: 4;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baemtitlea svg, body .bbody .rightmk .bmaking .lefty .baems #baemtitleb svg, body .bbody .rightmk .bmaking .lefty .baems #baemtitlec svg {
+  fill: #e07861;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baemtinya, body .bbody .rightmk .bmaking .lefty .baems #baemtinyb, body .bbody .rightmk .bmaking .lefty .baems #baemtinyc {
+  z-index: 4;
+}
+body .bbody .rightmk .bmaking .lefty .baems #baemtinya svg, body .bbody .rightmk .bmaking .lefty .baems #baemtinyb svg, body .bbody .rightmk .bmaking .lefty .baems #baemtinyc svg {
+  fill: #8eab8b;
+}
+body .bbody .rightmk .bmaking .lefty .baems .baemline {
+  z-index: 3;
+}
+body .bbody .rightmk .bmaking .righty {
+  width: 40%;
+  height: 100%;
+  padding-top: 2%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .righty .blocky {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks h1 {
+  font: bold 2.8vw/1.3 "Pretendard Variable";
+  color: #cecece;
+  margin-bottom: 5px;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks .circles {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks .circles .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px dotted #cecece;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 3px rgb(187, 187, 187);
+  margin-left: -5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font: bold 15px/1.3 "Pretendard Variable";
+  color: whitesmoke;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks .circles .circle.on {
+  width: 33px;
+  height: 33px;
+  opacity: 1;
+  background-color: whitesmoke;
+  border: 1.5px dotted #8b8b8b;
+  color: #8b8b8b;
+  border-width: 2px;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks .cp {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: none;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks .bigbtn {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  opacity: 0.7;
+  margin-top: -30px;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted #8b8b8b;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px inset #f0f0f0;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks #bbbtn {
+  background: radial-gradient(#84abd7, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks #titbtn {
+  background: radial-gradient(#e07861, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks #scrbtn {
+  background: radial-gradient(#8eab8b, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks #bgbtn {
+  background: radial-gradient(#fcfcfc, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover h1 {
+  color: #8b8b8b;
+  margin-bottom: 2px;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover .bigbtn, body .bbody .rightmk .bmaking .righty .blocky .blocks:hover .cp {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+  border-width: 2px;
+  box-shadow: 0px 0px 10px 10px inset whitesmoke;
+  border: 2px dotted #8b8b8b;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover .bigbtn {
+  margin-top: -70px;
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover #bbbtn {
+  background: radial-gradient(transparent, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover #titbtn {
+  background: radial-gradient(transparent, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover #scrbtn {
+  background: radial-gradient(transparent, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .blocky .blocks:hover #bgbtn {
+  background: radial-gradient(transparent, whitesmoke 70%);
+}
+body .bbody .rightmk .bmaking .righty .btn {
+  width: 60%;
+  height: 20%;
+  overflow: hidden;
+  display: flex;
+  align-items: end;
+}
+body .bbody .rightmk .bmaking .righty .btn img {
+  width: 100%;
+}
+body .bbody .rightmk .bmaking .righty .btn:hover {
+  width: 70%;
+}
+body .bbody .rightmk .bmaking .cardy {
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  display: none;
+  width: 58%;
+  height: 100%;
+  top: 11%;
+  right: 8%;
+  transform-origin: top center;
+  rotate: -5deg;
+}
+body .bbody .rightmk .bmaking .cardy .baemb {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 10px #cecece;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit .to {
+  width: 60%;
+  height: 45%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit .to .txt {
+  width: fit-content;
+  height: fit-content;
+  transform-origin: bottom right;
+  rotate: 90deg;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit .to .txt h1, body .bbody .rightmk .bmaking .cardy .baemb .imgfit .to .txt em {
+  text-align: left;
+  font: bold 12px/1.3 "Pretendard Variable";
+  color: #8b8b8b;
+  letter-spacing: -1px;
+}
+body .bbody .rightmk .bmaking .cardy .baemb .imgfit .to .txt em {
+  font-size: 13px;
+  margin-left: 5px;
+  text-decoration-line: underline;
+}
+body .bbody .btm {
+  width: 100%;
+  height: fit-content;
+  z-index: 5;
+  position: absolute;
+  bottom: 3%;
+  left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
+  opacity: 1;
+}
+body .bbody .btm .name {
+  width: 70%;
+  height: 37px;
+  margin-bottom: 2%;
+  display: none;
+}
+body .bbody .btm .name .btns {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bbody .btm .name .btns .lft, body .bbody .btm .name .btns .rgt {
+  width: 55px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .bbody .btm .name .btns .lft:hover, body .bbody .btm .name .btns .rgt:hover {
+  width: 60px;
+}
+body .bbody .btm .name .btns .lft img, body .bbody .btm .name .btns .rgt img {
+  width: 100%;
+  object-fit: contain;
+}
+body .bbody .btm .name .btns .lft img {
+  rotate: 180deg;
+  opacity: 0.7;
+}
+body .bbody .btm .name .btns .namae {
+  height: 100%;
+  width: 50%;
+  opacity: 0.7;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 5px #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bbody .btm .name .btns .namae input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  padding: 10%;
+  text-align: center;
+  font: bold 12px/1.3 "Pretendard Variable";
+  color: #8b8b8b;
+}
+body .bbody .btm .para {
+  margin-top: 1%;
+  width: 79%;
+  color: whitesmoke;
+}
+body .bbody .btm .para h1 {
+  text-align: center;
+  font: bold 12px/1.3 "Pretendard Variable";
+  text-shadow: 0px 0px 10px #8b8b8b;
+}
+body .bbody .btm .para h2 {
+  text-align: center;
+  font: bold 9px/1.3 "Pretendard Variable";
+}
+body .bbody .btm .copy {
+  margin-top: 3%;
+}
+body .bbody .btm .copy p {
+  color: whitesmoke;
+  font: bold 13px/1.3 "Pretendard Variable";
+}
+body .bbody.mk .bg {
+  background: linear-gradient(#f0f0f0, 95%, #8b8b8b);
+}
+body .bbody.mk .bg img {
+  opacity: 0.2;
+}
+body .bbody.mk .rightvid {
+  position: absolute;
+  left: -150%;
+  width: 0%;
+}
+body .bbody.mk .rightmk {
+  opacity: 1;
+}
+body .bbody.mk .btm {
+  opacity: 0.7;
+}
+body .bbody.mk .btm .para {
+  color: #8b8b8b;
+}
+body .bbody.mk .btm .para h1 {
+  text-shadow: 0px 0px 10px #cecece;
+}
+body .bbody.mk .btm .copy p {
+  color: #8b8b8b;
+}
+body .bbody.dl .rightvid {
+  position: absolute;
+  left: -150%;
+  width: 0%;
+}
+body .bbody.dl .rightmk {
+  opacity: 1;
+}
+body .bbody.dl .rightmk .top {
+  filter: brightness(10);
+}
+body .bbody.dl .rightmk .lefty {
+  transform-origin: top center;
+  rotate: 2deg;
+  transform: rotate(5deg) translate(9px, -21px);
+}
+body .bbody.dl .rightmk .lefty .baems .baemssbody, body .bbody.dl .rightmk .lefty .baems .baemsstitle, body .bbody.dl .rightmk .lefty .baems .baemsstiny {
+  width: 150%;
+}
+body .bbody.dl .rightmk .righty {
+  position: absolute;
+  right: -150%;
+  display: none;
+}
+body .bbody.dl .rightmk .cardy {
+  display: block;
+  opacity: 1;
+}
+body .bbody.dl .btm .name {
+  display: block;
+}
+
+@media (min-width: 438px) {
+  body .bbody {
+    padding: 5%;
+  }
+  body .bbody .rightvid > .vidvid {
+    margin-top: 50px;
+  }
+  body .bbody .rightmk .bmaking {
+    width: 315px;
+  }
+  body .bbody .rightmk .bmaking .lefty {
+    width: 182px;
+  }
+  body .bbody .rightmk .bmaking .righty .blocky .blocks h1 {
+    font: bold 15px/1.3 "Pretendard Variable";
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
