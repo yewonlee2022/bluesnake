@@ -248,7 +248,7 @@ const dlbtn = document.querySelector(".rgt");
 
 dlbtn.addEventListener('click',()=>{
     const name = document.querySelector(".name");
-    name.style.opacity =0;
+    name.style.display =`none`;
 
 //     const targetElement = document.querySelector(".bbody");
     
@@ -277,5 +277,5 @@ hmm.addEventListener('click',()=>{
     body.classList.remove("mk");
     body.classList.remove("dl");
     const name = document.querySelector(".name");
-    name.style.opacity =1;
+    name.style.display =`block`;
 })
