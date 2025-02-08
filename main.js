@@ -112,11 +112,15 @@ vidbtn.addEventListener('click', ()=>{
 mkbtn.addEventListener('click', ()=>{
     body.classList.remove("mk");
     body.classList.add("dl");
+    const name = document.querySelector(".name");
+    name.style.display =`block`;
 });
 
 lft.addEventListener('click', ()=>{
     body.classList.remove("dl");
     body.classList.add("mk");
+    const name = document.querySelector(".name");
+    name.style.display =`none`;
 });
 
 //타입바꾸기
@@ -276,6 +280,9 @@ const hmm = document.querySelector(".hmm");
 hmm.addEventListener('click',()=>{
     body.classList.remove("mk");
     body.classList.remove("dl");
+
     const name = document.querySelector(".name");
-    name.style.display =`block`;
+    name.style.display =`none`;
+    
+   
 })
