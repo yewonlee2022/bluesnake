@@ -86,16 +86,14 @@ body{
             }
            
 
-
-
-
-
-            .downs>img{
+            .downs{
+                img{
                 position: relative;            
                 margin-top: 3vw;
                 width: 40px;
                 height: fit-content;
                 }
+            }
     
          }
 
@@ -728,6 +726,7 @@ body{
             opacity: .7;
             .para{
                 color: $dgr;
+                display: none;
                 h1{
                     text-shadow: 0px 0px 10px $lgr;
                 }
