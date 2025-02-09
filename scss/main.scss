@@ -281,7 +281,7 @@ body{
                     pointer-events: none;
 
                     .baemssbody, .baemsstitle, .baemsstiny{
-                        width: 100%;
+                        width: 122%;
                         height: 100%;
                         object-fit: contain;
                         display: none;
@@ -512,7 +512,7 @@ body{
                 right: 8%;
                 
                 transform-origin: top center;
-                rotate: -5deg;
+        
                 
                 .baemb{
                     width: 100%;
@@ -763,26 +763,26 @@ body{
                 transform-origin: top center;
                 rotate: 2deg;
                 transform: rotate(5deg) translate(9px, -21px);
+                // transform: rotate(-7deg) translate(-28px, -71px);
+                // transform: rotate(4deg) translate(99px, -71px);
 
                 .baems{
                     .baemssbody, .baemsstitle, .baemsstiny{
                         width: 150%;
                     }
                 }
-
-        
             }
-
             .righty{
                 position: absolute;
                 right: -150%;
                 display: none;
             }
-
-
             .cardy{
                display: block;
                opacity: 1;
+               transform: rotate(-5deg);
+            //    transform: rotate(9deg) translate(34px, 9px);
+            // transform: rotate(172deg) translate(130px, -411px);
             }
                 
         }

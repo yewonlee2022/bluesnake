@@ -236,7 +236,7 @@ body .bbody .rightmk .bmaking .lefty .baems {
   pointer-events: none;
 }
 body .bbody .rightmk .bmaking .lefty .baems .baemssbody, body .bbody .rightmk .bmaking .lefty .baems .baemsstitle, body .bbody .rightmk .bmaking .lefty .baems .baemsstiny {
-  width: 100%;
+  width: 122%;
   height: 100%;
   object-fit: contain;
   display: none;
@@ -423,7 +423,6 @@ body .bbody .rightmk .bmaking .cardy {
   top: 11%;
   right: 8%;
   transform-origin: top center;
-  rotate: -5deg;
 }
 body .bbody .rightmk .bmaking .cardy .baemb {
   width: 100%;
@@ -614,6 +613,7 @@ body .bbody.dl .rightmk .righty {
 body .bbody.dl .rightmk .cardy {
   display: block;
   opacity: 1;
+  transform: rotate(-5deg);
 }
 body .bbody.dl .btm .name {
   display: block;

@@ -114,6 +114,26 @@ mkbtn.addEventListener('click', ()=>{
     body.classList.add("dl");
     const name = document.querySelector(".name");
     name.style.display =`block`;
+
+    const lefty = document.getElementById("lefty");
+    const cardy = document.querySelector(".cardy");
+
+    let hi =    Math.floor(Math.random()*3);
+    console.log(hi);
+
+    if (hi == `1`) {
+        lefty.style.transform= `rotate(-7deg) translate(-28px, -71px)`;
+        cardy.style.transform= `rotate(9deg) translate(34px, 9px)`;
+    }else if (hi==`2`){
+        lefty.style.transform= `rotate(4deg) translate(99px, -71px)`;
+        cardy.style.transform= `rotate(172deg) translate(130px, -411px)`;
+    }else{
+        lefty.style.transform= `rotate(5deg) translate(9px, -21px)`;
+        cardy.style.transform= `rotate(-5deg)`;
+    }
+   
+
+
 });
 
 lft.addEventListener('click', ()=>{
@@ -121,6 +141,7 @@ lft.addEventListener('click', ()=>{
     body.classList.add("mk");
     const name = document.querySelector(".name");
     name.style.display =`none`;
+    lefty.style.transform=`rotate(0deg) translate(0px, 0px)`
 });
 
 //타입바꾸기
@@ -283,6 +304,7 @@ hmm.addEventListener('click',()=>{
 
     const name = document.querySelector(".name");
     name.style.display =`none`;
+    lefty.style.transform=`rotate(0deg) translate(0px, 0px)`
     
    
 })
